@@ -84,7 +84,7 @@ body {
 }
 
 #top-box-age {
-    width: 140px;
+    width: 120px;
 }
 
 /*-------------------------------------------------------------*/
@@ -113,18 +113,18 @@ body {
     position: absolute;
     z-index: 5;
     position: absolute;
-    margin-top: -40px;
+    margin-top: -100px;
     margin-left: 40px;
 }
 
 #coin-large {
-    width: 120px;
+    width: 100px;
 }
 
 .samuel-logo {
     z-index: 3;
     position: absolute;
-    margin-top: -120px;
+    margin-top: -140px;
     overflow: visible;
 
 }
@@ -149,14 +149,13 @@ body {
     justify-content: center;
     z-index: 2;
     position: absolute;
-    width: 85%;
     height: fit-content;
+    margin-top: -24px;
 }
 
 .card-info-items {
-
+   
 }
-
 
 .coin-small {
     width: 85%;
@@ -164,7 +163,7 @@ body {
     justify-content: start;
     position: absolute;
     z-index: 20;
-    margin-top: 450px;
+    margin-top: 370px;
     display: flex;
     overflow: visible;
 }
@@ -173,39 +172,17 @@ body {
     width: 70px;
 }
 
-.container-btn-confirm {
-    position: absolute;
-    z-index: 40;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 480px;
-}
-
-.btn-confirm1 {
-    width: 200px;
-    height: 40px;
-    background: #FFE508;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #C10105;
-    font-family: 'inter';
-    border-radius: 24px;
-    filter: drop-shadow(4px 8px 25px rgba(71, 121, 51, 0.3));
-    transition: 0.3s ease-in;
-}
-
 /*-------------------------------------------------------------*/
 .form {
     background: #fff;
-    padding: 3.125em;
+    padding: 1.8rem;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     box-shadow: 5px 5px 15px -20px rgba(0, 0, 0, 0.40);
+    overflow: visible;
+    border: 1px solid rgb(233, 233, 233);
 }
 
 .form-title {
@@ -234,17 +211,17 @@ body {
 }
 
 .submit {
-    width: 260px;
     border: none;
     outline: none;
     background-color: #38B02F;
-    padding: 16px;
+    padding: 10px 50px;
     border-radius: 50px;
     color: #fff;
     font-size: 1.3rem;
     font-weight: 600;
     cursor: pointer;
     transition: 0.5s ease-out;
+    
 }
 
 .submit:hover {
