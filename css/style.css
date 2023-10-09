@@ -18,6 +18,7 @@ body {
     justify-content: center;
     position: fixed;
 }
+
 .container {
   width: 100%;
   overflow: visible;  
@@ -45,7 +46,6 @@ body {
     position: absolute;
     top: -30px;
 }
-
 #nuvem-large {
     width: 180px;
     position: relative;
@@ -57,29 +57,23 @@ body {
     position: relative;
     right: -310px;
 }
-
-
 #nuvem-small {
     width: 90px;
     position: relative;
     right: -40px;
 }
-
 .container-top-boxes {
     width: 100%;
     height: 200px;
     z-index: 5;
 }
-
 .top-box {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-right: 200px;
-    margin-top: 30px;  
 }
-
 #top-box-age {
     width: 160px;
 }
@@ -95,12 +89,12 @@ body {
     height: 400px;
     z-index: 2;
     position: absolute;
-    margin-top: -60px;
+    margin-top: -100px;
     margin-left: 60px;
 }
 
 #samuel {
-    width: 300px;
+    width: 240px;
 }
 
 .coin-large {
@@ -111,19 +105,19 @@ body {
 }
 
 #coin-large {
-    width: 120px; 
+    width: 100px; 
 }
 
 .samuel-logo {
     z-index: 3;
     position: absolute;
-    margin-top: 140px;
+    margin-top: 80px;
     margin-right: 20px;
     overflow: visible;
 }
 
 #samuel-logo {
-    width: 430px; 
+    width: 380px; 
 }
 
 /*-------------------------------------------------------------*/
@@ -131,7 +125,7 @@ body {
 .container-card-info {
     width: 100%;
     height: 400px;
-    margin-top: 250px;
+    margin-top: 180px;
     display: flex;
     justify-content: center;
  
@@ -154,7 +148,7 @@ body {
     flex-direction: column;
     font-family: 'Londrina Solid', Helvetica, sans-serif;
     color: #fff;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 
 .card-info-items h1{
@@ -188,7 +182,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 20px;
     
 }
 
@@ -227,9 +221,10 @@ a {
     width: 100%;
     z-index: 4;
     position: absolute;
-    margin-top: 680px;
+    margin-top: 560px;
     display: flex;
     justify-content: center;
+    overflow: visible;
 }
 
 .tube {
@@ -243,3 +238,9 @@ a {
     width: 230px;
 }
 
+#nuvem-large2 {
+    position: absolute;
+    z-index: 10;
+    margin-top: 200px;
+
+}

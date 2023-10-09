@@ -77,7 +77,6 @@ body {
     align-items: center;
     justify-content: center;
     margin-right: 200px;
-    margin-top: 10px;  
 }
 
 #top-box-age {
@@ -110,20 +109,19 @@ body {
     position: absolute;
     z-index: 5;
     position: absolute;
-    margin-top: -40px;
+    margin-top: -100px;
     margin-left: 40px;
 }
 
 #coin-large {
-    width: 120px; 
+    width: 100px; 
 }
 
 .samuel-logo {
     z-index: 3;
     position: absolute;
-    margin-top: -120px;
+    margin-top: -140px;
     overflow: visible;
-
 }
 
 #samuel-logo {
@@ -136,8 +134,7 @@ body {
     width: 100%;
     height: 400px;
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;   
 }
 
 .card-info {
@@ -146,26 +143,26 @@ body {
     justify-content: center;
     z-index: 2;
     position: absolute;
-    width: 85%;
-    height: 440px;
     border-radius: 13.658px;
     background: #fff;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .card-info-items {
+    width: 100%;
+    height: fit-content;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     font-family: 'Londrina Solid', Helvetica, sans-serif;
-    color: #fff;
-    gap: 20px;
+    gap: 16px;
+    padding: 26px 20px;
 }
 
 #title {
     font-family: 'inter';
-    font-size: 1.4rem;
+    font-size: 1rem;
     color: #000;
     display: flex;
     align-items: center;
@@ -174,7 +171,7 @@ body {
 #subtitle-card {
     font-family: 'inter';
     font-weight: 500;
-    font-size: 0.9rem;
+    font-size: 0.6rem;
     color: #000;
     display: flex;
     align-items: center;
@@ -192,20 +189,28 @@ body {
     border-radius: 10px;
     padding: 10px;
     gap: 4px
-
 }
 
 #box-info-title {
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 800;
 }
 
 #box-local-info-bairro {
     font-style: italic;
-    font-size: 0.7rem;
+    font-size: 0.6rem;
     display: flex;
     justify-content: center;
     text-align: center;
+    align-items: center;
+}
+
+#box-info-valor-rodizio {
+    font-family: 'inter';
+    font-weight: 500;
+    font-size: 0.9rem;
+    color: #000;
+    display: flex;
     align-items: center;
 }
 
@@ -241,21 +246,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 480px;
-}
-
-.btn-confirm1 {
-    width: 200px;
-    height: 40px;
-    background: #FFE508;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #C10105;
-    font-family: 'inter';
-    border-radius: 24px;
-    filter: drop-shadow(4px 8px 25px rgba(71, 121, 51, 0.3));
-    transition: 0.3s ease-in;
+    margin-top: 340px;
 }
 
 .btn-confirm1:hover {
@@ -269,7 +260,7 @@ body {
     border: none;
     outline: none;
     background-color: #38B02F;
-    padding: 20px;
+    padding: 14px 20px;
     border-radius: 50px;
     color: #fff;
     font-size: 1.3rem;
