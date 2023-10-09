@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Londrina+Solid&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    font-family: 'inter';
+}
+
+.container {
+    width: 100%;
+    overflow: visible;
+    background: linear-gradient(180deg, #2399FF -15.36%, #FFF 45.07%);
+}
+
+.container-allcontent {
+    width: 100vw;
+    height: 100vh;
+    margin: 0 auto;
+    min-width: 375px;
+    max-width: 450px;
+    overflow: hidden;
+}
+
+/* TOP-------------------------------------------------------------*/
+.container-clouds {
+    width: 450px;
+    ;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 2;
+    overflow: visible;
+    position: absolute;
+    top: -30px;
+}
+
+#nuvem-large {
+    width: 180px;
+    position: relative;
+    right: 50px;
+}
+
+#nuvem-mid {
+    width: 120px;
+    position: relative;
+    right: -310px;
+}
+
+
+#nuvem-small {
+    width: 90px;
+    position: relative;
+    right: -40px;
+}
+
+.container-top-boxes {
+    width: 100%;
+    height: 200px;
+    z-index: 5;
+}
+
+.top-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 200px;
+    margin-top: 10px;
+}
+
+#top-box-age {
+    width: 140px;
+}
+
+/*-------------------------------------------------------------*/
+/* HERO--------------------------------------------------------*/
+.container-hero {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 400px;
+    z-index: 2;
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 60px;
+}
+
+.coin-large {
+    width: 95%;
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    z-index: 5;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 40px;
+}
+
+#coin-large {
+    width: 120px;
+}
+
+.samuel-logo {
+    z-index: 3;
+    position: absolute;
+    margin-top: -120px;
+    overflow: visible;
+
+}
+
+#samuel-logo {
+    width: 300px;
+}
+
+/*-------------------------------------------------------------*/
+/* CARD-INFO---------------------------------------------------*/
+.container-card-info {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+
+}
+
+.card-info {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    position: absolute;
+    width: 85%;
+    height: fit-content;
+}
+
+.card-info-items {
+
+}
+
+
+.coin-small {
+    width: 85%;
+    display: flex;
+    justify-content: start;
+    position: absolute;
+    z-index: 20;
+    margin-top: 450px;
+    display: flex;
+    overflow: visible;
+}
+
+#coin-small {
+    width: 70px;
+}
+
+.container-btn-confirm {
+    position: absolute;
+    z-index: 40;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 480px;
+}
+
+.btn-confirm1 {
+    width: 200px;
+    height: 40px;
+    background: #FFE508;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #C10105;
+    font-family: 'inter';
+    border-radius: 24px;
+    filter: drop-shadow(4px 8px 25px rgba(71, 121, 51, 0.3));
+    transition: 0.3s ease-in;
+}
+
+/*-------------------------------------------------------------*/
+.form {
+    background: #fff;
+    padding: 3.125em;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 15px -20px rgba(0, 0, 0, 0.40);
+}
+
+.form-title {
+    font-family: "inter";
+    color: #000;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.form--input {
+    width: 100%;
+    margin-bottom: 1.25em;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid rgb(173, 173, 173);
+    padding: 0.8em;
+    font-family: 'Inter', sans-serif;
+    outline: none;
+}
+
+.form--input:focus {
+    border: 1px solid #38B02F;
+    outline: none;
+    background: #F9E450;
+    border: 3px solid #1B1B1B;
+}
+
+.submit {
+    width: 260px;
+    border: none;
+    outline: none;
+    background-color: #38B02F;
+    padding: 16px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+}
+
+.submit:hover {
+    background-color: #2d8f26;
+}
